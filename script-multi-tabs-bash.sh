@@ -10,3 +10,4 @@ gnome-terminal --full-screen \
 
 ## add alias in .bashrc
 ## alias pdh="./script-multi-tabs-bash.sh"
+## permission chmod +x FILE_NAME
