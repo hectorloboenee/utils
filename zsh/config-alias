@@ -131,4 +131,4 @@ alias stop-container='cd ~/Documents/enee/dev/infra && ./stop-container.sh && cd
 alias list='ls -1a'
  
 #terminator
-alias term='terminator -l CONTRATOS'
+alias term='terminator -l CONTRATOS &'
