@@ -1,0 +1,111 @@
+[global_config]
+[keybindings]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+  [[CONTRATOS]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 0:27
+      maximised = True
+      fullscreen = False
+      size = 1920, 955
+      title = mr-roboto@Dell-G15-5515:~
+      last_active_term = c3368678-5ed1-409b-a14f-3819c9d9e429
+      last_active_window = True
+    [[[child1]]]
+      type = HPaned
+      parent = child0
+      order = 0
+      position = 958
+      ratio = 0.5002610966057441
+    [[[child2]]]
+      type = HPaned
+      parent = child1
+      order = 0
+      position = 476
+      ratio = 0.4994753410283316
+    [[[child3]]]
+      type = VPaned
+      parent = child2
+      order = 0
+      position = 475
+      ratio = 0.5
+    [[[terminal4]]]
+      type = Terminal
+      parent = child3
+      order = 0
+      profile = default
+      uuid = c3368678-5ed1-409b-a14f-3819c9d9e429
+      directory = /home/mr-roboto/Documents/enee/new-architecture/auth/sso/backend/SSO.Api
+    [[[terminal5]]]
+      type = Terminal
+      parent = child3
+      order = 1
+      profile = default
+      uuid = 4b346398-251d-4d90-975f-7ab40ae30db4
+      directory = /home/mr-roboto/Documents/enee/new-architecture/auth/sso/frontend
+    [[[child6]]]
+      type = VPaned
+      parent = child2
+      order = 1
+      position = 475
+      ratio = 0.5
+    [[[terminal7]]]
+      type = Terminal
+      parent = child6
+      order = 0
+      profile = default
+      uuid = a10ae99c-93f1-4d51-be88-d457e9553bd7
+      directory = /home/mr-roboto/Documents/enee/gd_contratos_generacion/backend/ContratosGeneracion.Api
+    [[[terminal8]]]
+      type = Terminal
+      parent = child6
+      order = 1
+      profile = default
+      uuid = 1049ae8b-3a05-4497-a1f2-029afcc7ea66
+      directory = /home/mr-roboto/Documents/enee/gd_contratos_generacion/frontend/contratos-generacion
+    [[[child9]]]
+      type = HPaned
+      parent = child1
+      order = 1
+      position = 476
+      ratio = 0.5
+    [[[child10]]]
+      type = VPaned
+      parent = child9
+      order = 0
+      position = 475
+      ratio = 0.5
+    [[[terminal11]]]
+      type = Terminal
+      parent = child10
+      order = 0
+      profile = default
+      uuid = 2dab669b-025e-4043-b1cd-51a7a023db89
+      directory = /home/mr-roboto/Documents/enee/gestion-financiera/backend/GestionFinanciera.Api
+    [[[terminal12]]]
+      type = Terminal
+      parent = child10
+      order = 1
+      profile = default
+      uuid = 1876a64d-0497-42b6-833d-0f6b65c10325
+      directory = /home/mr-roboto/Documents/enee/gestion-financiera/frontend
+    [[[terminal13]]]
+      type = Terminal
+      parent = child9
+      order = 1
+      profile = default
+      uuid = 8a18914a-f74e-47f2-94af-604f6bceb8af
+[plugins]
