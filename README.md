@@ -9,3 +9,6 @@ Note: Then in DBeaver, go to Database->Driver Manager, choose "PostgreSQL" then 
 1. ```sudo apt install mysql-client```
 
 Note: https://askubuntu.com/questions/223012/how-can-i-install-mysql-client-on-10-04
+
+## Fedora add minimize button
+gsettings set org.gnome.desktop.wm.preferences button-layout 'appmenu:minimize,maximize,close'
