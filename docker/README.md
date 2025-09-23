@@ -1,2 +1,2 @@
-Método recomendado: Truncar los logs
-truncate -s 0 /var/lib/docker/containers/*/*.log
+## Método recomendado: Truncar los logs
+1. truncate -s 0 /var/lib/docker/containers/*/*.log
