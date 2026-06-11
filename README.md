@@ -12,3 +12,8 @@ Note: https://askubuntu.com/questions/223012/how-can-i-install-mysql-client-on-1
 
 ## Fedora add minimize button
 gsettings set org.gnome.desktop.wm.preferences button-layout 'appmenu:minimize,maximize,close'
+
+
+
+## Convert file.pfx to base64
+openssl base64 -in tu_certificado.pfx -out pfx_base64.txt
