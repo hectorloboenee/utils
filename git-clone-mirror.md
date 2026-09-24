@@ -15,7 +15,7 @@ cd repository.git
 ## 3. Set the destination repository
 
 ```bash
-git remote set-url --push origin https://github.com/TARGET_ORGANIZATION/repository.git
+git remote set-url origin https://github.com/TARGET_ORGANIZATION/repository.git
 ```
 
 ## 4. Verify the remote
